@@ -27,6 +27,6 @@ function calculate(op) {
         }
     }
 
-    document.getElementById("result").textContent = result;
+    document.getElementById("result").innerHTML = result;
 }
 
